@@ -1,6 +1,6 @@
-import {Gender} from "./gender";
-import {Profession} from "./profession";
-import {Race} from "./race"
+import {Gender} from './gender';
+import {Profession} from './profession';
+import {Race} from './race';
 
 /**
  * A POD Representing a person
@@ -13,4 +13,5 @@ export class Person {
   profession: Profession;
   age: number;
   race: Race;
+
 }

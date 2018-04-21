@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 h1 {
   color: #369;
@@ -6,22 +7,21 @@ h1 {
   font-size: 250%;
 }
 
-h2, h3 {
-  color: #444;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-}
-
 body {
-  margin: 2em;
+  margin: 0;
+  font-family: Roboto, sans-serif;
 }
 
-body, input[text] button {
-  color: #888;
-  font-family: Cambria, Georgia;
+mat-card {
+  max-width: 80%;
+  margin: 2em auto;
+  text-align: center;
 }
 
-/* Everywhere else */
-{
-  font-family:  Arial, Helvetica, sans-serif;
+mat-toolbar-row {
+  justify-content: space-between;
+}
+
+.spacer {
+  flex: 1 1 auto;
 }
